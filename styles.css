@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Definindo cor de todo corpo da página */
+
+body {
+    background-color: #f7f7f7;
+}
+
+/* Estilos aplicados ao elemento header
+definindo e personalizando o Layout */
+
+header {
+    padding: 12px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Atributos ao campo das logos no 
+header da página */
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo-microsoft {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo-copilot {
+    width: 18px;
+    height: 18px;
+    align-self: flex-end;
+}
+
+/* Fonte estilizada do copilot no header */
+
+header .copiloto {
+    font-weight: bolder;
+    font-family: 'calibri', sans-serif;
+    color: #444;
+    margin: -16px;
+    font-size: 12px;
+    height: 10px;
+}
+
+/* escrita formatada para linguagem
+perfil e menu */
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 14px;
+}
+
+ul li {
+    color: #444;
+}
+
+header .usuario {
+    display: flex;
+    align-items: center;
+}
+
+header .avatar {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+}
+
+ul li .sidebar-icon {
+    color: #71777d;
+    width: 22px;
+    height: 22px;
+}
+
+/* main , início de apresentação do Copilot no corpo 
+principal da página*/
+
+main .presentation-cont {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 16vh;
+    margin-bottom:30px;
+    
+}
+
+main .microsoft-copilot {
+    align-items: flex-start;
+    width: 200px;
+    display: flex;
+    margin: -60px;
+}
+
+main .frase-inicial{
+    display: flex;
+    font-family: 'calibri', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* trata-se da imagens anexadas no inicio da
+pagina */
+
+main .gerador-ia {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    height: 38vh;
+}
+
+footer form {
+    position: fixed;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Caixa de texto para intereção 
+no inferior da página*/
+
+footer form textarea {
+    min-width: 600px;
+    max-width: 600px;
+    width: 100%;
+
+    min-height: 88px;
+    max-height: 88px;
+    height: 100%;
+
+    padding: 16px 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+    border-radius: 12px;
+    border-color: #b8bbbd;
+    outline: 0;
+
+}
+
+footer .botao-enviar{
+    height: 20px;
+    margin: 4px;
+}
+
+
+
+
+
